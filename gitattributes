@@ -1,0 +1,58 @@
+# =========================
+# Text normalization
+# =========================
+* text=auto
+
+# Explicit text files
+*.js     text
+*.ts     text
+*.html   text
+*.css    text
+*.json   text
+*.md     text
+*.glsl   text
+*.vert   text
+*.frag   text
+
+# =========================
+# Binary assets (do NOT diff)
+# =========================
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+
+# =========================
+# Video assets (HUGE)
+# =========================
+*.mp4    binary
+*.mov    binary
+*.avi    binary
+*.mkv    binary
+*.webm  binary
+
+# =========================
+# Audio (if you add later)
+# =========================
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.flac  binary
+
+# =========================
+# Data / ML / cache blobs
+# =========================
+*.npy    binary
+*.npz    binary
+*.pt     binary
+*.onnx  binary
+*.bin    binary
+
+# =========================
+# Optional: Git LFS hooks
+# =========================
+# Uncomment ONLY if you decide to use Git LFS
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# *.mov filter=lfs diff=lfs merge=lfs -text
+# *.webm filter=lfs diff=lfs merge=lfs -text

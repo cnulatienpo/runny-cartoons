@@ -1,0 +1,78 @@
+# -------------------------
+# Node / JS tooling
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Build outputs
+# -------------------------
+dist/
+build/
+.out/
+.cache/
+
+# -------------------------
+# Dev servers / bundlers
+# -------------------------
+.vite/
+.parcel-cache/
+.esbuild/
+
+# -------------------------
+# OS junk
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor junk
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Local env / secrets
+# -------------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------------
+# Video & large binary assets (IMPORTANT)
+# -------------------------
+# Raw or experimental footage should NOT be committed
+assets/raw_videos/
+assets/atoms/
+assets/tmp/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# If you later decide to commit SMALL demo videos,
+# put them in assets/demo/ and remove the rule above selectively.
+
+# -------------------------
+# Generated textures / caches
+# -------------------------
+*.tmp
+*.cache
+*.bin
+
+# -------------------------
+# Shader build artifacts
+# -------------------------
+*.spv
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
