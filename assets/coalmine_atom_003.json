@@ -1,0 +1,26 @@
+{
+  "normalize": true,
+  "optical_flow": {},
+  "horizon": {},
+  "scene_cuts": {},
+  "palettes": {},
+  "depth": {},
+  "phash": {},
+  "clip": {},
+  "microsegments": {},
+  "seam_density": {},
+  "quality": {},
+  "style": {},
+  "taxonomy": {},
+  "feel_curve": {},
+  "transition_matrix": {},
+  "loop_scores": {},
+  "_meta": {
+    "video": "coalmine",
+    "atom_index": 3,
+    "start_frame": 50,
+    "end_frame": 106,
+    "frame_count": 56,
+    "fps": 24.0
+  }
+}
